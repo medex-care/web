@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.4f3e0e3f.css",
-    "main.js": "/web/static/js/main.31fcb3e8.js",
+    "main.js": "/web/static/js/main.87570769.js",
     "static/media/hero.png": "/web/static/media/hero.6b5a9b745fc8de09d150.png",
     "static/media/3.png": "/web/static/media/3.c7ccaac8de2b5e7e5c3a.png",
     "static/media/1.png": "/web/static/media/1.92465cb042ca4662139a.png",
@@ -118,8 +118,8 @@
     "static/media/youtube.svg": "/web/static/media/youtube.55153e3e90d87c34d14e5569ab42573c.svg",
     "static/media/fb.svg": "/web/static/media/fb.beb60d210684e67797ab0d426dce5701.svg",
     "static/media/admin.svg": "/web/static/media/admin.df21c265e0cfbaaf791a928ad3994ac1.svg",
-    "static/media/check.svg": "/web/static/media/check.ba3a3981c38ca73d06169a8b213f73df.svg",
     "index.html": "/web/index.html",
+    "static/media/check.svg": "/web/static/media/check.ba3a3981c38ca73d06169a8b213f73df.svg",
     "static/media/wfb.svg": "/web/static/media/wfb.ed52e80063152b329e0173ceb1196c17.svg",
     "static/media/wifi.svg": "/web/static/media/wifi.95749874ea0fb3e0fe14d5a04d7bfc02.svg",
     "static/media/headphone.svg": "/web/static/media/headphone.f5f98576abf1c04ef982e19325cfd356.svg",
@@ -136,10 +136,10 @@
     "static/media/play.svg": "/web/static/media/play.69a1a571b76bbc05d7e481c12385d43b.svg",
     "static/media/white-check.svg": "/web/static/media/white-check.3428fae2abfc6f0eff9aaaf5255ca661.svg",
     "main.4f3e0e3f.css.map": "/web/static/css/main.4f3e0e3f.css.map",
-    "main.31fcb3e8.js.map": "/web/static/js/main.31fcb3e8.js.map"
+    "main.87570769.js.map": "/web/static/js/main.87570769.js.map"
   },
   "entrypoints": [
     "static/css/main.4f3e0e3f.css",
-    "static/js/main.31fcb3e8.js"
+    "static/js/main.87570769.js"
   ]
 }
