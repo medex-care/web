@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/web/static/css/main.4f3e0e3f.css",
-    "main.js": "/web/static/js/main.87570769.js",
+    "main.js": "/web/static/js/main.61c05047.js",
     "static/media/hero.png": "/web/static/media/hero.6b5a9b745fc8de09d150.png",
     "static/media/3.png": "/web/static/media/3.c7ccaac8de2b5e7e5c3a.png",
     "static/media/1.png": "/web/static/media/1.92465cb042ca4662139a.png",
@@ -19,6 +19,7 @@
     "static/media/testi-left.png": "/web/static/media/testi-left.5f25f11e8711975ae200.png",
     "static/media/bg-ins-2.png": "/web/static/media/bg-ins-2.e764469525e9844dead4.png",
     "static/media/bg-ins-1.png": "/web/static/media/bg-ins-1.e86b04dba4f6f8171814.png",
+    "static/media/logo_w_trans.png": "/web/static/media/logo_w_trans.2afc0c1c9fd526424c46.png",
     "static/media/Gilroy-Thin.ttf": "/web/static/media/Gilroy-Thin.a21a139f0613c0f6f97c.ttf",
     "static/media/Gilroy-Medium.ttf": "/web/static/media/Gilroy-Medium.f9f832b0ed3f1ab138c9.ttf",
     "static/media/Gilroy-Regular.ttf": "/web/static/media/Gilroy-Regular.b91b0127c56a8e5f9e83.ttf",
@@ -136,10 +137,10 @@
     "static/media/play.svg": "/web/static/media/play.69a1a571b76bbc05d7e481c12385d43b.svg",
     "static/media/white-check.svg": "/web/static/media/white-check.3428fae2abfc6f0eff9aaaf5255ca661.svg",
     "main.4f3e0e3f.css.map": "/web/static/css/main.4f3e0e3f.css.map",
-    "main.87570769.js.map": "/web/static/js/main.87570769.js.map"
+    "main.61c05047.js.map": "/web/static/js/main.61c05047.js.map"
   },
   "entrypoints": [
     "static/css/main.4f3e0e3f.css",
-    "static/js/main.87570769.js"
+    "static/js/main.61c05047.js"
   ]
 }
