@@ -21,8 +21,7 @@ import Thanks from "./Components/Pages/Thanks";
 
 function App() {
   return (
-    <BrowserRouter
-     basename="/web">
+    <BrowserRouter>
       <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
         <Routes>
           <Route path="/" element={<HomeTwo />} />
