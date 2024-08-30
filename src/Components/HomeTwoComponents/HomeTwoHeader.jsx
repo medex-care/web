@@ -6,27 +6,27 @@ import { Header } from "../HeaderNew";
 import { Link } from "react-router-dom";
 import heroImg from "../../assets/images/all-img/hero.png";
 const HomeTwoHeader = () => {
-  const scrollNav = useRef(null);
-  const [activeMobileMenu, setActiveMobileMenu] = useState(false);
-  const [showSearchBar, setShowSearchBar] = useState(false);
-  let body = document.querySelector("body");
-  const handleShowSearchBar = () => {
-    setShowSearchBar(!showSearchBar);
-  };
-  useEffect(() => {
-    // scrolling nav
-    window.addEventListener("scroll", () => {
-      let windowScroll = window.scrollY > 100;
-      scrollNav.current.classList.toggle("rt-sticky-active", windowScroll);
-    });
-  }, []);
-  showSearchBar
-    ? body.classList.add("modal-open")
-    : body.classList.remove("modal-open");
+  // const scrollNav = useRef(null);
+  // const [activeMobileMenu, setActiveMobileMenu] = useState(false);
+  // const [showSearchBar, setShowSearchBar] = useState(false);
+  // let body = document.querySelector("body");
+  // const handleShowSearchBar = () => {
+  //   setShowSearchBar(!showSearchBar);
+  // };
+  // useEffect(() => {
+  //   // scrolling nav
+  //   window.addEventListener("scroll", () => {
+  //     let windowScroll = window.scrollY > 100;
+  //     scrollNav.current.classList.toggle("rt-sticky-active", windowScroll);
+  //   });
+  // }, []);
+  // showSearchBar
+  //   ? body.classList.add("modal-open")
+  //   : body.classList.remove("modal-open");
 
-  body.classList.contains("modal-open")
-    ? (document.documentElement.scrollTop = 0)
-    : "";
+  // body.classList.contains("modal-open")
+  //   ? (document.documentElement.scrollTop = 0)
+  //   : "";
   return (
     <section className=" xl:min-h-screen bg-[url('../images/banner/2.png')] bg-cover bg-no-repeat bg-center overflow-hidden xl:pb-[130px]">
       <Header />
@@ -43,7 +43,7 @@ const HomeTwoHeader = () => {
             Mitarbeiter suchen, sowie für Fachkräfte, die neue berufliche
             Herausforderungen anstreben.
           </div>
-          <div className="md:flex  md:space-x-4 space-y-3 md:space-y-0 pt-5">
+          <div className="md:flex md:space-x-4 space-x-2 space-y-3 md:space-y-0 pt-5">
             <a href="#about-us" className="btn btn-primary">
               Mehr erfahren
             </a>

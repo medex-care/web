@@ -4,14 +4,15 @@ import { Link } from "react-router-dom";
 import { error404 } from "../../constant/images";
 import Footer from "../Footer";
 import { Header } from "../../Components/HeaderNew";
+import PageBanner from "../PageBanner";
 
 const ImprintPage = () => {
   return (
     <>
       <Header />
-      <div className="container bg-cover bg-no-repeat bg-center">
+      <div className="container bg-cover bg-no-repeat bg-center section-padding">
         <div className="mx-auto flex flex-col">
-          <h2 style={{marginTop: 10}} className="mb-6">Impressum</h2>
+          <h2 className="mb-6 text-3xl">Impressum</h2>
           <div className="mb-10">
             <div className="bg-cover bg-no-repeat bg-center">
               <p>

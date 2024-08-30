@@ -7,7 +7,7 @@ const PageBanner = ({ pageName, pageTitle, num, title }) => {
   return (
     <div className="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat">
       <div className="container text-center">
-        <h2>{title}</h2>
+        <h2 className="text-3xl">{title}</h2>
         {/* <nav>
           <ol className="flex items-center justify-center space-x-3">
             <li className="breadcrumb-item">

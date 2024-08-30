@@ -37,6 +37,7 @@ import insIcon1 from "../assets/images/all-img/ins-1.png";
 import insIcon2 from "../assets/images/all-img/ins-2.png";
 import insIcon3 from "../assets/images/all-img/ins-3.png";
 import insIcon4 from "../assets/images/all-img/ins-4.png";
+import contact from "../assets/images/all-img/contact.jpg";
 import insIcon5 from "../assets/images/all-img/ins-5.png";
 import insIcon6 from "../assets/images/all-img/ins-6.png";
 import singleIns from "../assets/images/all-img/single-ins.png";
@@ -157,6 +158,7 @@ export {
   twIcon,
   insIcon,
   footerLogo2,
+  contact,
   insIcon1,
   insIcon2,
   insIcon3,
