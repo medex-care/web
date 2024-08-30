@@ -34,7 +34,7 @@ const ContactForm = () => {
           setEmail("");
           setName("");
           setMessage("");
-          naviget("/react-templates/edumim/thanks");
+          naviget("/thanks");
           setLoading(false);
         },
         (err) => {
@@ -85,7 +85,7 @@ const ContactForm = () => {
         ></textarea>
       </div>
       <button class="btn btn-primary mt-[10px]" type="submit" name="submit">
-        {loading ? 'sending..' : 'Nachricht sendens'}
+        {loading ? 'lädt..' : 'Nachricht senden'}
       </button>
     </form>
   );

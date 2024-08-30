@@ -21,10 +21,10 @@ const Testimonials = () => {
 
           <div className="  text-center">
             <h2 className="text-secondary font-bold ">
-              <span className=" counter">348</span>+
+              <span className=" counter">600</span>+
             </h2>
             <span className="block text-black font-semibold">
-              Academic Programs
+              Academic Prweograms
             </span>
           </div>
 

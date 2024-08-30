@@ -2,7 +2,7 @@ import React from "react";
 import { call, mail, map } from "../../constant/images";
 import ContactForm from "../ContactForm";
 import Footer from "../Footer";
-import Header from "../Header";
+import {Header} from "../HeaderNew";
 import PageBanner from "../PageBanner";
 
 const ContactUs = () => {
@@ -30,8 +30,8 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div class="flex-1">
-                    <h4 class=" lg:text-xl text-lg mb-1">Email-Us :</h4>
-                    <div>Contactyourmail@gmail.com</div>
+                    <h4 class=" lg:text-xl text-lg mb-1">E-Mail:</h4>
+                    <div><a href="mailto:info@medex-consulting.de">info@medex-consulting.de</a></div>
                   </div>
                 </li>
                 <li class="flex">
@@ -41,8 +41,8 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div class="flex-1">
-                    <h4 class=" lg:text-xl text-lg mb-1">Call Us:</h4>
-                    <div>+88012 2910 1781, +88019 6128 1689</div>
+                    <h4 class=" lg:text-xl text-lg mb-1">Telefon:</h4>
+                    <div>+49 151 27150688</div>
                   </div>
                 </li>
                 <li class="flex">
@@ -52,8 +52,8 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div class="flex-1">
-                    <h4 class="lg:text-xl text-lg mb-1">Office :</h4>
-                    <div>Mountain Green Road 2389, NY, USA</div>
+                    <h4 class="lg:text-xl text-lg mb-1">Adresse:</h4>
+                    <div>Donaustraße 64, 87700 Memmingen</div>
                   </div>
                 </li>
               </ul>

@@ -27,7 +27,7 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
       <div className="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999] active-mobile-menu">
         <div className="flex justify-between px-6 flex-none">
           <Link
-            to={"/react-templates/edumim/home"}
+            to={"/home"}
             className="brand-logo flex-none mr-10 "
           >
             <img src={logo} alt="logo" />
@@ -58,10 +58,10 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                   <Link to={"/react-templates/edumim"}>Home One</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/home-two"}>Home Two</Link>
+                  <Link to={"/home-two"}>Home Two</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/home-three"}>
+                  <Link to={"/home-three"}>
                     Home Three
                   </Link>
                 </li>
@@ -79,36 +79,36 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim/about"}>About 1</Link>
+                  <Link to={"/about"}>About 1</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/about-two"}>About 2</Link>
+                  <Link to={"/about-two"}>About 2</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor"}>
+                  <Link to={"/instructor"}>
                     Instructor
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor-two"}>
+                  <Link to={"/instructor-two"}>
                     Instructor 2
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/instructor-details"}>
+                  <Link to={"/instructor-details"}>
                     Instructor Single
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/event"}>Event</Link>
+                  <Link to={"/event"}>Event</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/event-single"}>
+                  <Link to={"/event-single"}>
                     Event Single
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/error"}>404</Link>
+                  <Link to={"/error"}>404</Link>
                 </li>
               </ul>
             </li>
@@ -126,15 +126,15 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim/courses"}>courses</Link>
+                  <Link to={"/courses"}>courses</Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/courses-sidebar"}>
+                  <Link to={"/courses-sidebar"}>
                     courses Sidebar
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/single-course"}>
+                  <Link to={"/single-course"}>
                     Single-course
                   </Link>
                 </li>
@@ -152,19 +152,19 @@ const MobileMenu = ({ activeMenu, setActiveMenu }) => {
                 }
               >
                 <li>
-                  <Link to={"/react-templates/edumim/blog-standard"}>
+                  <Link to={"/blog-standard"}>
                     Blog Standard
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/react-templates/edumim/single-blog"}>
+                  <Link to={"/single-blog"}>
                     Single Blog
                   </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to={"/react-templates/edumim/contacts"}>Contacts</Link>
+              <Link to={"/contacts"}>Contacts</Link>
             </li>
           </ul>
         </div>

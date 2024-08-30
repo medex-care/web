@@ -21,67 +21,64 @@ import Thanks from "./Components/Pages/Thanks";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter
+     basename="/web">
       <div className="font-gilroy font-medium text-gray text-lg leading-[27px]">
         <Routes>
+          <Route path="/" element={<HomeTwo />} />
           <Route
-            path="/"
-            element={<Navigate to={"/react-templates/edumim"} />}
-          />
-          <Route path="/react-templates/edumim" element={<HomeOne />} />
-          <Route
-            path="/react-templates/edumim/home-two"
-            element={<HomeTwo />}
+            path="/home-two"
+            element={<HomeOne />}
           />
           <Route
-            path="/react-templates/edumim/home-three"
+            path="/home-three"
             element={<HomeThree />}
           />
-          <Route path="/react-templates/edumim/about" element={<AboutOne />} />
+          <Route path="/about" element={<AboutOne />} />
           <Route
-            path="/react-templates/edumim/about-two"
+            path="/about-two"
             element={<AboutTwo />}
           />
           <Route
-            path="/react-templates/edumim/instructor"
+            path="/instructor"
             element={<InstructorOne />}
           />
           <Route
-            path="/react-templates/edumim/instructor-two"
+            path="/instructor-two"
             element={<InstructorTwo />}
           />
           <Route
-            path="/react-templates/edumim/instructor-details"
+            path="/instructor-details"
             element={<InstructorDetails />}
           />
-          <Route path="/react-templates/edumim/event" element={<Event />} />
+          <Route path="/event" element={<Event />} />
           <Route
-            path="/react-templates/edumim/event-single"
+            path="/event-single"
             element={<EventSingle />}
           />
-          <Route path="/react-templates/edumim/error" element={<ErrorPage />} />
-          <Route path="/react-templates/edumim/courses" element={<Courses />} />
+          <Route path="/error" element={<ErrorPage />} />
+          <Route path="/courses" element={<Courses />} />
           <Route
-            path="/react-templates/edumim/courses-sidebar"
+            path="/courses-sidebar"
             element={<CourseSideBar />}
           />
           <Route
-            path="/react-templates/edumim/single-course"
+            path="/single-course"
             element={<SingleCourse />}
           />
           <Route
-            path="/react-templates/edumim/blog-standard"
+            path="/blog-standard"
             element={<BLogStandard />}
           />
           <Route
-            path="/react-templates/edumim/single-blog"
+            path="/single-blog"
             element={<SingleBlog />}
           />
           <Route
-            path="/react-templates/edumim/contacts"
+            path="/contact"
             element={<ContactUs />}
           />
-          <Route path="/react-templates/edumim/thanks" element={<Thanks />} />
+          <Route path="/thanks" element={<Thanks />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </div>

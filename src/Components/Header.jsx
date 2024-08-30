@@ -42,12 +42,12 @@ const Header = () => {
                           <Link to={"/react-templates/edumim"}> Home One</Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/home-two"}>
+                          <Link to={"/home-two"}>
                             Home Two
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/home-three"}>
+                          <Link to={"/home-three"}>
                             Home Three
                           </Link>
                         </li>
@@ -57,44 +57,44 @@ const Header = () => {
                       <a href="#">Pages</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/about"}>
+                          <Link to={"/about"}>
                             About 1
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/about-two"}>
+                          <Link to={"/about-two"}>
                             About 2
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/instructor"}>
+                          <Link to={"/instructor"}>
                             Instructor
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/instructor-two"}>
+                          <Link to={"/instructor-two"}>
                             Instructor 2
                           </Link>
                         </li>
                         <li>
                           <Link
-                            to={"/react-templates/edumim/instructor-details"}
+                            to={"/instructor-details"}
                           >
                             Instructor Single
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/event"}>
+                          <Link to={"/event"}>
                             Event
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/event-single"}>
+                          <Link to={"/event-single"}>
                             Event Single
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/error"}>404</Link>
+                          <Link to={"/error"}>404</Link>
                         </li>
                       </ul>
                     </li>
@@ -102,17 +102,17 @@ const Header = () => {
                       <a href="#">Courses</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/courses"}>
+                          <Link to={"/courses"}>
                             Courses
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/courses-sidebar"}>
+                          <Link to={"/courses-sidebar"}>
                             Courses Sidebar
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/single-course"}>
+                          <Link to={"/single-course"}>
                             Single Course
                           </Link>
                         </li>
@@ -122,19 +122,19 @@ const Header = () => {
                       <a href="#">Blog</a>
                       <ul className="sub-menu">
                         <li>
-                          <Link to={"/react-templates/edumim/blog-standard"}>
+                          <Link to={"/blog-standard"}>
                             Blog Standard
                           </Link>
                         </li>
                         <li>
-                          <Link to={"/react-templates/edumim/single-blog"}>
+                          <Link to={"/single-blog"}>
                             Blog Single
                           </Link>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <Link to={"/react-templates/edumim/contacts"}>
+                      <Link to={"/contacts"}>
                         Contacts
                       </Link>
                     </li>

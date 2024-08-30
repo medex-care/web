@@ -17,7 +17,7 @@ const ErrorPage = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor labore et dolore magna aliqua.
           </div>
-          <Link to={"/react-templates/edumim"} className="btn btn-primary">
+          <Link to={"/"} className="btn btn-primary">
             Back To Home
           </Link>
         </div>

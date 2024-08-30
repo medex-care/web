@@ -18,7 +18,7 @@ import {
   search,
 } from "../../constant/images";
 import Footer from "../Footer";
-import Header from "../Header";
+import {Header} from "../HeaderNew";
 import PageBanner from "../PageBanner";
 
 const BLogStandard = () => {

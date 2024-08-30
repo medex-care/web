@@ -33,23 +33,23 @@ import {
 export const achivementCounter = [
   {
     icon: counter1,
-    num: 82 + "k",
-    sector: "Enrolled Students",
+    num: 370,
+    sector: "Vermittlung von Fachkräften",
   },
   {
     icon: counter2,
-    num: 460,
-    sector: "Academic Programs",
+    num: 63,
+    sector: "aktive Kunden",
   },
   {
     icon: counter3,
-    num: 20,
-    sector: "Certified Studens",
+    num: 32,
+    sector: "Schulungszentrum Weltweit",
   },
   {
     icon: counter4,
-    num: 200,
-    sector: "Award Winnig",
+    num: 350,
+    sector: "Qualifizierung absolviert",
   },
 ];
 

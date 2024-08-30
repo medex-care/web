@@ -100,10 +100,10 @@ const CoralinaCloud = () => {
                   className=" absolute left-1/2 -translate-x-1/2 -top-10"
                 />
                 <h4 className=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
-                  <span className="counter">82</span>
-                  k+
+                  <span className="counter">370</span>
+                  +
                 </h4>
-                <p>Enrolled Students</p>
+                <p>Vermittlung von Fachkräften</p>
               </div>
 
               <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
@@ -113,9 +113,9 @@ const CoralinaCloud = () => {
                   className=" absolute left-1/2 -translate-x-1/2 -top-10"
                 />
                 <h4 className=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
-                  <span className="counter">460</span>+
+                  <span className="counter">63</span>+
                 </h4>
-                <p>Academic Programs</p>
+                <p>aktive Kunden</p>
               </div>
 
               <div className="bg-white shadow-box7 text-center pt-[64px] pb-8 px-[50px]  rounded-[8px] relative my-4">
@@ -125,9 +125,9 @@ const CoralinaCloud = () => {
                   className=" absolute left-1/2 -translate-x-1/2 -top-10"
                 />
                 <h4 className=" text-[44px] leading-[66px] text-black font-bold mb-1 ">
-                  <span className="counter">20</span>+
+                  <span className="counter">42</span>
                 </h4>
-                <p>Certified Students</p>
+                <p>Kandidaten in Qualifizierung</p>
               </div>
             </div>
             <div className="mt-20 mb-14">

@@ -63,7 +63,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
             {courseData.map((item, index) => (
               <Link
                 className=" bg-white shadow-box2 rounded-[8px] transition duration-100 hover:shadow-sm"
-                to={"/react-templates/edumim/single-course"}
+                to={"/single-course"}
                 key={item.id * index}
               >
                 <div className="course-thumb h-[248px] rounded-t-[8px]  relative">
@@ -117,7 +117,7 @@ const FilteredCourse = ({ classNameForTabOne, classNameForTabTwo }) => {
               <Link
                 className=" bg-white rounded-[8px] transition shadow-box7 duration-150 border-b-4 hover:border-primary border-transparent
             hover:shadow-box6 flex p-8 space-x-6"
-                to={"/react-templates/edumim/single-course"}
+                to={"/single-course"}
                 key={index}
               >
                 <div className="flex-none">

@@ -3,40 +3,17 @@ import { about4, miniHeart, miniTarget } from "../../constant/images";
 
 const WhyChoose = () => {
   return (
-    <div className="about-area section-padding bg-[url('../images/all-img/section-bg-8.png')] bg-cover  bg-no-repeat bg-center">
+    <div style={{backgroundColor: '#f1f1f1'}} className="about-area section-padding bg-[url('../images/all-img/section-bg-8.png')] bg-cover  bg-no-repeat bg-center">
       <div className="container">
         <div className="lg:grid grid-cols-12 lg:gap-10  space-y-6 lg:space-y-0">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
-            <div className="mini-title">Why Choose Edumim</div>
+            <div className="mini-title">Für Arbeitgeber</div>
             <h4 className="column-title ">
-              Grow Your Skill, Define Your {' '}
-              <span className="shape-bg pb-4">Bright Future</span>
+              <span className="shape-bg pb-4">Effiziente Lösungen</span> für
+              Ihre Personalbedürfnisse
             </h4>
             <div className=" mb-8">
-              Learn at your own pace, move between multiple courses, or switch
-              to a different course. Earn a certificate for every learning
-              program that you complete at no additional cost multiple courses
-              this year.
-            </div>
-            <div>
-              <div className="grid lg:grid-cols-2 grid-cols-1 gap-[30px] md:block">
-                <div className="bg-white shadow-box7 p-6 rounded">
-                  <div>
-                    <img src={miniTarget} alt="" />
-                  </div>
-                  <div className=" font-semibold leading-[27px] text-black mt-3">
-                    Learn At Your Own Multiple Courses
-                  </div>
-                </div>
-                <div className="bg-white shadow-box7 p-6 rounded">
-                  <div>
-                    <img src={miniHeart} alt="" />
-                  </div>
-                  <div className=" font-semibold leading-[27px] text-black mt-3">
-                    We Provide Study Materials
-                  </div>
-                </div>
-              </div>
+              Durch unsere Expertise und unser Engagement stellen wir sicher, dass wir die Bedürfnisse und Anforderungen beider Seiten verstehen und optimal erfüllen. Wir unterstützen unsere Kunden und Kandidaten während des gesamten Vermittlungsprozesses – von der ersten Kontaktaufnahme bis zur erfolgreichen Integration am neuen Arbeitsplatz. Dabei legen wir großen Wert auf Transparenz, Professionalität und eine persönliche Betreuung.
             </div>
           </div>
           <div className="xl:col-span-7 lg:col-span-6 col-span-12 ">

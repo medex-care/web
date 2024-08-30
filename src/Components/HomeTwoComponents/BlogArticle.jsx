@@ -38,7 +38,7 @@ const BlogArticle = () => {
                 </div>
                 <h4 className=" lg:text-2xl lg:leading-[36px] text-1xl mb-4 font-bold">
                   <Link
-                    to={'/react-templates/edumim/single-blog'}
+                    to={'/single-blog'}
                     className=" group-hover:text-primary transitio duration-150"
                   >
                     {item.title}

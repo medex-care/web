@@ -5,9 +5,9 @@ const Counter = () => {
     <div className=" section-padding">
       <div className="container">
         <div className="text-center">
-          <div className="mini-title">Some Fun Fact</div>
+          <div className="mini-title">Einige Fakten</div>
           <div className="column-title ">
-            Unsere <span className="shape-bg">Achievement</span>
+            medex GmbH in <span className="shape-bg">Zahlen</span>
           </div>
         </div>
         <div className="grid  xl:grid-cols-4 md:grid-cols-2  grid-cols-1 gap-[30px] pt-10">

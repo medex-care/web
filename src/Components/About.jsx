@@ -7,20 +7,15 @@ const About = () => {
   return (
     <div className="about-area section-padding">
       <div className="container">
-        <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+        <div>
+          <div className="mini-title">Warum die medex GmbH?</div>
+          <h4 className="column-title ">
+            <span className="shape-bg">Gründe</span> für uns
+          </h4>
           <div>
-            <img src={aboutOne} alt="aboutOne" className=" mx-auto" />
+            Bei der medex GmbH stehen Qualität, Zuverlässigkeit und individuelle Betreuung im Vordergrund. Hier sind einige Gründe, warum Sie sich für uns entscheiden sollten:
           </div>
-          <div>
-            <div className="mini-title">About Edumim</div>
-            <h4 className="column-title ">
-              The Place Where You Can
-              <span className="shape-bg">Achieve</span>
-            </h4>
-            <div>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered.
-            </div>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
             <ul className=" list-item space-y-6 pt-8">
               <li className="flex">
                 <div className="flex-none mr-6">
@@ -33,10 +28,9 @@ const About = () => {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h4 className=" text-xl mb-1">Our Mission</h4>
+                  <h4 className=" text-xl mb-1">Erfahrung und Expertise</h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+                    Mit jahrelanger Erfahrung in der Vermittlung von Fach- und Führungskräften verfügen wir über tiefgehende Branchenkenntnisse und ein umfangreiches Netzwerk, das uns ermöglicht, die besten Kandidaten für Ihre Anforderungen zu finden.
                   </div>
                 </div>
               </li>
@@ -51,19 +45,49 @@ const About = () => {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h4 className=" text-xl mb-1">Our Vision</h4>
+                  <h4 className=" text-xl mb-1">Transparenz und Vertrauen</h4>
                   <div>
-                    There are many variations of passages of the Lorem Ipsum
-                    available.
+                    Offenheit und Ehrlichkeit sind die Grundpfeiler unserer Arbeit. Wir pflegen eine transparente Kommunikation und bauen so Vertrauen zu unseren Kunden und Kandidaten auf.
                   </div>
                 </div>
               </li>
             </ul>
-            <div className="pt-8">
-              <a href="#" className=" btn btn-primary">
-                Read More Us
-              </a>
-            </div>
+            <ul className=" list-item space-y-6 pt-8">
+              <li className="flex">
+                <div className="flex-none mr-6">
+                  <div className="h-[72px] w-[72px] rounded-full">
+                    <img
+                      src={lightImg}
+                      alt="lightImg"
+                      className=" w-full h-full object-cover rounded-full block"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h4 className=" text-xl mb-1">Internationale Reichweite</h4>
+                  <div>
+                    Unsere globale Präsenz und unsere spezialisierten Rekrutierungsprozesse machen uns zu einem starken Partner bei der Suche nach internationalen Fachkräften, insbesondere im Pflegebereich.
+                  </div>
+                </div>
+              </li>
+              <li className="flex">
+                <div className="flex-none mr-6">
+                  <div className="h-[72px] w-[72px] rounded-full">
+                    <img
+                      src={targetImg}
+                      alt=""
+                      className=" w-full h-full object-cover rounded-full block"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h4 className=" text-xl mb-1">Individuelle Betreuung</h4>
+                  <div>
+                    Wir legen großen Wert auf eine persönliche und maßgeschneiderte Betreuung sowohl unserer Kunden als auch der Kandidaten. Wir hören zu, verstehen Ihre Bedürfnisse und bieten Lösungen, die genau auf Ihre Anforderungen abgestimmt sind.
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

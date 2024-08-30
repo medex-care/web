@@ -8,6 +8,8 @@ import About from "../HomeTwoComponents/About";
 import Counter from "../HomeTwoComponents/Counter";
 import PageBanner from "../PageBanner";
 import Testimonials from "../Testimonials";
+import Courses from "../HomeTwoComponents/Courses";
+import Platform from "../Platform";
 
 const AboutOne = () => {
   return (
@@ -17,6 +19,7 @@ const AboutOne = () => {
       <About />
       <Feature />
       <Counter />
+      <Platform />
       <Testimonials />
       <Team />
       <Accordion />

@@ -41,14 +41,14 @@ const Blogs = () => {
               <div className="course-content p-8">
                 <div className="flex   lg:space-x-10 space-x-5 mb-5">
                   <Link
-                    to={"/react-templates/edumim/single-blog"}
+                    to={"/single-blog"}
                     className=" flex items-center space-x-2"
                   >
                     <img src={admin} alt="" />
                     <span>{blog.position}</span>
                   </Link>
                   <Link
-                    to={"/react-templates/edumim/single-blog"}
+                    to={"/single-blog"}
                     className=" flex items-center space-x-2"
                   >
                     <img src={calender} alt="" />
@@ -57,14 +57,14 @@ const Blogs = () => {
                 </div>
                 <h4 className=" text-xl mb-5 font-bold">
                   <Link
-                    to={"/react-templates/edumim/single-blog"}
+                    to={"/single-blog"}
                     className=" hover:text-primary transition duration-150"
                   >
                     {blog.title}
                   </Link>
                 </h4>
                 <Link
-                  to={"/react-templates/edumim/single-blog"}
+                  to={"/single-blog"}
                   className=" text-black font-semibold hover:underline transition duration-150"
                 >
                   Read More
