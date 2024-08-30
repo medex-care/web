@@ -19,11 +19,13 @@ export const Header = () => {
             <ul className=" flex  divide-x divide-white divide-opacity-25 text-base lg:justify-start justify-center">
               <li className="mr-4">Donaustraße 64, 87700 Memmingen</li>
               <li className="pl-4 lowercase">
-                <a href="mailto:info@medex-consulting.de">info@medex-consulting.de</a>
+                <a href="mailto:info@medex-consulting.de">
+                  info@medex-consulting.de
+                </a>
               </li>
             </ul>
             <ul className=" text-base flex  lg:justify-end justify-center divide-x divide-white divide-opacity-25 items-center">
-              <li className="px-2">Folgen Sie uns auf:</li>
+              {/* <li className="px-2">Folgen Sie uns auf:</li>
               <li className="px-2">
                 <a href="#">
                   <img src={wfb} alt="" />
@@ -43,21 +45,17 @@ export const Header = () => {
                 <a href="#">
                   <img src={wins} alt="" />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
       </div>
-      <div
-        className="main-header py-8 header-normal2  rt-sticky top-0 w-full z-[999] "
-        //   ref={scrollNav}
-      >
+      <div className="main-header py-8 header-normal2  rt-sticky top-0 w-full z-[999] ">
         <div className="container">
-          <div className=" flex items-center justify-between ">
+          <div className=" flex items-center justify-between">
             <Link
               to={"/"}
-              className="brand-logo flex-none lg:mr-10 md:w-auto"
-              style={{maxWidth: 200}}
+              className="brand-logo flex-none lg:mr-10 md:w-auto lg:max-w-48 max-w-36"
             >
               <img src={logo} alt="" />
             </Link>
@@ -72,25 +70,19 @@ export const Header = () => {
                   </li>
                 </ul> */}
               </div>
-              <div className="flex-none flex space-x-[18px]">
-                <div className=" block   lg:hidden">
-                  <button
-                    type="button"
-                    className=" text-3xl md:w-[56px] h-10 w-10 md:h-[56px] rounded bg-white flex flex-col items-center justify-center menu-click"
-                    //TODO:  onClick={() => setActiveMobileMenu(!activeMobileMenu)}
-                  >
-                    <iconify-icon
-                      icon="cil:hamburger-menu"
-                      rotate="180deg"
-                    ></iconify-icon>
-                  </button>
-                </div>
-                <div className=" hidden lg:block">
+              <div className="flex-none flex">
+                <div className="">
                   <Link
                     to={"/contact"}
-                    className="btn bg-black text-white py-[15px] px-8"
+                    className="btn bg-black text-white hidden lg:block"
                   >
                     Jetzt Kontaktieren!
+                  </Link>
+                  <Link
+                    to={"/contact"}
+                    className="btn bg-black text-white lg:hidden"
+                  >
+                    Kontakt
                   </Link>
                 </div>
               </div>

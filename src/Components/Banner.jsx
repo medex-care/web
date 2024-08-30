@@ -11,9 +11,9 @@ const Banner = () => {
         <div className="max-w-[570px] xl:pt-[297px] md:pt-20 md:pb-20 pt-28 pb-14 xl:pb-40 space-y-8">
           <h1>
             Classical{" "}
-            <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom">
-              Education
-            </span>{" "}
+            {/* <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom"> */}
+              {/* Education */}
+            {/* </span>{" "} */}
             For The Future
           </h1>
           <div className=" plain-text text-gray leading-[30px]">

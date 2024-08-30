@@ -8,6 +8,8 @@ import miniHeart from "../assets/images/svg/mini-heart.svg";
 import about4 from "../assets/images/all-img/about4.png";
 import about5 from "../assets/images/all-img/about5.png";
 import check from "../assets/images/svg/check.svg";
+import solutions from "../assets/images/all-img/solutions.jpg";
+
 
 import c1 from "../assets/images/all-img/c1.png";
 import c2 from "../assets/images/all-img/c2.png";
@@ -256,4 +258,5 @@ export {
   team2,
   team3,
   team4,
+  solutions
 };

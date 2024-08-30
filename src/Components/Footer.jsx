@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div> */}
       <div className="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
-        &copy; Copyright {updatedDate} | medex GmbH | All Rights Reserved | <Link to={'imprint'}>Impressum</Link>
+        &copy; {updatedDate} | medex GmbH | <Link to={'/imprint'}>Impressum</Link>
       </div>
     </footer>
   );

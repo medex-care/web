@@ -1,5 +1,5 @@
 import React from "react";
-import { about4 } from "../../constant/images";
+import { solutions } from "../../constant/images";
 
 const WhyChoose = () => {
   return (
@@ -18,7 +18,7 @@ const WhyChoose = () => {
           </div>
           <div className="xl:col-span-7 lg:col-span-6 col-span-12 ">
             <img
-              src={about4}
+              src={solutions}
               alt=""
               className=" block w-full object-contain "
             />

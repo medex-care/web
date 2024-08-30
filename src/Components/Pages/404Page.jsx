@@ -3,27 +3,29 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { error404 } from "../../constant/images";
 import Footer from "../Footer";
-import Header from "../Header";
+import {Header} from "../../Components/HeaderNew";
 
 const ErrorPage = () => {
   return (
-    <>
+    <div className="">
       <Header />
-      <div className=" min-h-screen bg-[url('../images/all-img/404-bg.png')] bg-cover bg-no-repeat bg-center">
-        <div className="max-w-[570px] mx-auto flex flex-col items-center text-center justify-center min-h-screen px-4">
-          <img src={error404} alt="" className="mb-14" />
-          <h2 className=" mb-6">Page not found</h2>
+      <div className="bg-cover bg-no-repeat bg-center">
+        <div className="max-w-[570px] mx-auto flex flex-col items-center text-center justify-center px-4">
+          <h2 className=" mb-6">Seite nicht gefunden</h2>
           <div className="mb-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor labore et dolore magna aliqua.
+            Die von Ihnen angeforderte Seite kann leider nicht angezeigt werden.
+            Möglicherweise wurde sie verschoben oder existiert nicht mehr. Wir
+            bitten um Ihr Verständnis und laden Sie ein, über die Startseite zu
+            navigieren oder unsere Suchfunktion zu nutzen, um die gewünschten
+            Informationen zu finden.
           </div>
           <Link to={"/"} className="btn btn-primary">
-            Back To Home
+            Zurück zur Startseite
           </Link>
         </div>
       </div>
-      <Footer />
-    </>
+      {/* <Footer /> */}
+    </div>
   );
 };
 
