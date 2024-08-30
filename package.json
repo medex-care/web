@@ -2,7 +2,6 @@
   "name": "edumim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://medex-care.github.io/web",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@emailjs/browser": "^3.10.0",
