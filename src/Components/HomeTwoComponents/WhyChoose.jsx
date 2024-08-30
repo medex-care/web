@@ -1,5 +1,5 @@
 import React from "react";
-import { about4, miniHeart, miniTarget } from "../../constant/images";
+import { about4 } from "../../constant/images";
 
 const WhyChoose = () => {
   return (
