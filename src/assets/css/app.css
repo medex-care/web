@@ -3808,9 +3808,9 @@ ul ul > li.menu-item-has-children:hover > a:after {
   background-image: url("../images/banner/1.png");
 }
 
-.bg-\[url\(\'\.\.\/images\/banner\/shape\.svg\'\)\] {
+/* .bg-\[url\(\'\.\.\/images\/banner\/shape\.svg\'\)\] {
   background-image: url("../images/banner/shape.svg");
-}
+} */
 
 .bg-\[url\(\'\.\.\/images\/all-img\/section-bg-5\.png\'\)\] {
   background-image: url("../images/all-img/section-bg-5.png");

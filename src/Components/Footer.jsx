@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import footerLogo from "../assets/images/logo/footer-logo.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const updatedDate = new Date().getFullYear();
@@ -63,7 +64,7 @@ const Footer = () => {
         </div>
       </div> */}
       <div className="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
-        &copy; Copyright {updatedDate} | medex | All Rights Reserved
+        &copy; {updatedDate} | medex GmbH | <Link to={'/imprint'}>Impressum</Link>
       </div>
     </footer>
   );

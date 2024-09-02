@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .social-explore:hover > ul {
   display: flex;
 }

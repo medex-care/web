@@ -9,9 +9,9 @@ const Banner = () => {
         <div className="xl:max-w-[570px] lg:max-w-[770px] xl:py-[174px] lg:py-28 md:py-20 py-14">
           <h1>
             Classical
-            <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom">
-              Education
-            </span>{" "}
+            {/* <span className=" text-secondary inline-block bg-[url('../images/banner/shape.svg')]  bg-no-repeat bg-bottom"> */}
+              {/* Education */}
+            {/* </span>{" "} */}
             For The Future
           </h1>
           <div className=" plain-text text-gray leading-[30px] mt-8 mb-14">

@@ -1,21 +1,26 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import ok from "../assets/images/svg/ok.svg";
-import about4 from "../assets/images/all-img/about4.png";
+import about4 from "../assets/images/all-img/about.jpg";
 
 const Platform = () => {
   return (
-    <div id="about-us" className="bg-[url('../images/all-img/section-bg-2.png')] bg-cover bg-no-repeat bg-center section-padding">
+    <div
+      id="about-us"
+      className="bg-[url('../images/all-img/section-bg-2.png')] bg-cover bg-no-repeat bg-center section-padding"
+    >
       <div className="container">
         <div className="lg:grid grid-cols-12 gap-[30px]">
           <div className="xl:col-span-5 lg:col-span-6 col-span-12">
             <div className="mini-title">Über uns</div>
             <h4 className="column-title ">
-              Das sind {" "}
-              <span className="shape-bg">Wir!</span>
+              Das sind <span className="shape-bg">Wir!</span>
             </h4>
             <div>
-             Als kompetenter Partner vermittelt die medex GmbH Fachpersonal weltweit. Mit unserem umfangreichem Netzwerk und langjähriger Expertise bieten wir Ihnen maßgeschneiderte Lösungen für Ihr Unternehmen.
+              Als kompetenter Partner vermittelt die medex GmbH Fachpersonal
+              weltweit. Mit unserem umfangreichem Netzwerk und langjähriger
+              Expertise bieten wir Ihnen maßgeschneiderte Lösungen für Ihr
+              Unternehmen.
             </div>
             <ul className=" space-y-2 pt-8">
               <li className="flex flex-wrap">
@@ -26,7 +31,8 @@ const Platform = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className=" text-lg mb-1 font-semibold">
-                    Förderung der Integration ausländischer Pflegekräfte in den deutschen Arbeitsmarkt
+                    Förderung der Integration ausländischer Pflegekräfte in den
+                    deutschen Arbeitsmarkt
                   </h4>
                 </div>
               </li>
@@ -50,7 +56,8 @@ const Platform = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className=" text-lg mb-1 font-semibold">
-                    Persönliche Betreuung für den Erfolg von Kunden und Kandidaten
+                    Persönliche Betreuung für den Erfolg von Kunden und
+                    Kandidaten
                   </h4>
                 </div>
               </li>

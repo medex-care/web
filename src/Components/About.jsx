@@ -15,7 +15,7 @@ const About = () => {
           <div>
             Bei der medex GmbH stehen Qualität, Zuverlässigkeit und individuelle Betreuung im Vordergrund. Hier sind einige Gründe, warum Sie sich für uns entscheiden sollten:
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-10">
+          <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-10">
             <ul className=" list-item space-y-6 pt-8">
               <li className="flex">
                 <div className="flex-none mr-6">
